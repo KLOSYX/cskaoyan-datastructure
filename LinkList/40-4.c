@@ -3,8 +3,8 @@
 void deleteMinimum(linkList L) {
     LNode *pre = L, *ptr_min;
     LNode *p;
-    if (pre->next == NULL) return;
-    pre = pre->next;
+    if (pre->next == NULL) return;  //如果链表为空，直接退出
+    pre = pre->next;    //设为第一个节点
     ptr_min = pre;
     while (pre->next != NULL)
     {

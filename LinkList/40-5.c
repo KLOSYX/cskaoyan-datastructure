@@ -23,8 +23,8 @@ void reverseLinkList(linkList L)
 
 void reverseLinkList_2(linkList L)
 {
-    LNode *pre = L, *p = L->next, *q;
-    while (p->next != NULL) {
+    LNode *pre = L->next, *p = L->next->next, *q;
+    while (p != NULL) {
         q = p;
         p = p->next;
         pre->next = p;
