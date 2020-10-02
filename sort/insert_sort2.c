@@ -1,4 +1,4 @@
-#include "sort.h"
+#include "Sort.h"
 
 void insertSort2(int a[], int n) {
     int i, j, temp;
