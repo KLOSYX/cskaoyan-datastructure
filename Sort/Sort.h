@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 #define TEST_A int a[10] = {7, 8, 5, 5, 3, 2, 4, 1, 9, 6}
 #define TEST_N int n = 10
+#define N 10
 #define MAIN(F)  \
     do           \
     {            \
@@ -25,5 +27,5 @@
                 return;                                     \
             }                                               \
         }                                                   \
-        printf("------ORDER TEST PASS------\n");            \
+        printf("------ORDER TEST PASSED------\n");          \
     } while (0)
