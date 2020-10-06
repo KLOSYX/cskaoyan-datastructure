@@ -1,5 +1,6 @@
 #include "LinkList.h"
 
+// 然而c语言并没有引用类型
 void seperateToAB(linkList &L, linkList &a, linkList &b) {
     LNode *p = L->next;
     LNode *head_a = (linkList)malloc(sizeof(LNode)), *head_b = (linkList)malloc(sizeof(LNode));
